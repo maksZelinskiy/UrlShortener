@@ -1,0 +1,29 @@
+.row td:nth-child(2){
+    cursor: pointer;
+}
+
+.row td {
+    vertical-align: center;
+}
+
+.edit > ion-icon,
+.remove > ion-icon {
+    display: flex;
+    align-items: center;
+    font-size: 22px;
+    cursor: pointer;
+    transition: all .15s ease-in-out;
+}
+
+.remove > ion-icon {
+    color: indianred;
+}
+
+.edit > ion-icon:hover,
+.remove > ion-icon:hover {
+    transform: scale(1.2);
+}
+
+.remove > ion-icon:hover {
+    color: red;
+}
